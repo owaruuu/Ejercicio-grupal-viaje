@@ -19,6 +19,11 @@ footer{
 /* NavBar */
 #navbar{
     color: white;
+    transition: all 0.5s;
+}
+
+.navbar-scrolled {
+    background-color: rgb(21, 125, 198);
 }
 
 #navbar>div>.navbar-collapse{
