@@ -66,6 +66,10 @@ footer{
     background-color: rgb(21, 125, 198);
 }
 
+.accordion-body{
+    padding: 10px 0;
+}
+
 .icono{
     background-color: rgb(21, 125, 198);
 }
