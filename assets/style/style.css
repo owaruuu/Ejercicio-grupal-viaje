@@ -1,0 +1,86 @@
+/* Elementos */
+body{
+    background-color: black;
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+
+p{
+    color:white;
+}
+
+footer{
+    background-color: rgb(21, 125, 198) ;
+}
+
+/* NavBar */
+#navbar{
+    color: white;
+}
+
+#navbar>div>.navbar-collapse{
+    flex-grow: 0;
+    
+}
+
+.navbar-brand{
+    flex:auto;
+    color: white;
+}
+
+.link-nav{
+    color:white !important;
+}
+
+.svg{
+    max-height: 30px;
+}
+
+.navbar-toggler{
+    border-color: white;
+}
+
+.navbar-toggler:focus{
+    box-shadow:  0 0 0 0.25rem rgb(21, 125, 198);
+    border-color: rgb(21, 125, 198);
+}
+
+/* Body */
+.seccion{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.separacion{
+    border-top-color: rgb(21, 125, 198) ;
+}
+
+.imagen-carta{
+    height: 20%;
+}
+
+.card-body{
+    background-color: rgb(21, 125, 198);
+}
+
+.icono{
+    background-color: rgb(21, 125, 198);
+}
+
+/* Footer */
+.fa-brands{
+    color: white;
+}
+
+.company-name{
+    color: white;
+}
+
+.big-padding{
+    --dj-bigx-padding: 15%;
+    padding-left: var(--dj-bigx-padding);
+    padding-right: var(--dj-bigx-padding);
+}
